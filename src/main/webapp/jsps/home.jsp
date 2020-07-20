@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ZoomIT Corp- Home Page</title>
-<link href="images/logo.jpg" rel="icon">
+<link href="images/ZoomIT_Corp_Logo.jpg" rel="icon">
 </head>
 </head>
 <body>
@@ -14,7 +14,7 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/logo.jpg" alt="" width="100">
+		<img src="images/ZoomIT_Corp_Logo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
 		ZoomIT Corp, 

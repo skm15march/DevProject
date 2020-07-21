@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ZoomIT Corp Releases Nexus Repository</name>
-	      <url>http://ublinux:9020/skm15march/repository/flipkart-release/</url>
+	      <url>http://ublinux:9020/repository/flipkar_release//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ZoomIT Corp Snapshot Nexus Repository </name>
-	      <url>http://ublinux:9020/skm15march/repository/flipkart_snapshot/</url>
+	      <url>http://ublinux:9020/repository/flipkart-snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

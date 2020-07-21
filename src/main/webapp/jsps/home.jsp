@@ -4,34 +4,34 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+<title>ZoomIT Corp- Home Page</title>
+<link href="images/ZoomIT_Corp_Logo.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Technologies.</h1>
-<h1 align="center"> Welcome to MIthun Technologies.......We have a demo on  AWS Sol Arch demo on June 26th  at 8 PM IST for new batch. , Timings are 8 PM to 9 PM  . MSS- Very Good Training center for DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... Some fake guys are giving the fake reviews dont believe those guys..I am requesting everyone. Please give your reviews in FB and Google.</h1>
+<h1 align="center">Welcome to ZoomIT Corp.</h1>
+<h1 align="center"> Welcome to ZoomIT Corp.......We have a demo on  AWS Sol, very Good for DevOps with AWS. Please give your reviews in FB and Google.</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		<img src="images/ZoomIT_Corp_Logo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
-		Bangalore,
-		+91-9980923226,
-		devopstrainingbr@gmail.com
+		ZoomIT Corp, 
+		KharGhar,
+		Navi Mumbai,
+		+91-9987261114,
+		skm15march@gmail.com
 		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:skm15march@gmail.com">Mail to ZoomIT Corp</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2019 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+<p align=center>ZoomIT Corp - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2019 by <a href="http://zoomitcorp.com/">ZoomIT Corp</a> </small></p>
 
 </body>
 </html>

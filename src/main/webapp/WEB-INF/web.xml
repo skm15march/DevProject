@@ -3,7 +3,7 @@
   <display-name>maven-web-application</display-name>
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>/WEB-INF/zm-servlet.xml</param-value>
+    <param-value>/WEB-INF/mt-servlet.xml</param-value>
   </context-param>
   <servlet>
     <servlet-name>mt</servlet-name>

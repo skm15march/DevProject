@@ -22,7 +22,7 @@ node{
   def mavenHome=tool name: "mavenv3.1.1.1", type: "maven"
     
   stage('CheckouttheCode') {
-   git branch: 'master', credentialsId: '4d6512c4-c101-4f43-aac5-5860f5d9e20c', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'  
+   git branch: 'master', credentialsId: '07c8a66f5386a2dc8605695ce54e35d65b9a9e6c', url: 'https://github.com/skm15march/DevProject.git'  
  }
   /*
    stage('Checkout'){
@@ -65,24 +65,24 @@ node{
 
 stage('DeploytoTomcat'){
 
-   sshagent(['f0ef3182-69ef-4169-8368-9ea18a5fe3af']) 
+   sshagent(['07c8a66f5386a2dc8605695ce54e35d65b9a9e6c']) 
    {
-     sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.126.135.88:/opt/apache-tomcat-9.0.22/webapps/maven-web-application.war"
+     sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ublinux:/opt/apache-tomcat-9.0.22/webapps/maven-web-application.war"
    }
 }
 */
  stage('EmailNotification'){
-    mail to: 'devopstrainingblr@gmail.com',
-         bcc: 'devopstrainingblr@gmail.com', 
-         cc: 'devopstrainingblr@gmail.com', 
-         from: 'devopstrainingblr@gmail.com', 
-         replyTo: 'devopstrainingblr@gmail.com', 
+    mail to: 'skm15march@gmail.com',
+         bcc: 'skm15march@gmail.com', 
+         cc: 'skm15march@gmail.com', 
+         from: 'skm15march@gmail.com', 
+         replyTo: 'skm15march@gmail.com', 
          subject: 'Build Notification'
          body: '''Build Done, Please check the build log for more details..
          
                   Regards,
-                  Mithun Technologies,
-                  9980923226'''
+                  ZoomIT Corp,
+                  9987261114'''
  }
  
  

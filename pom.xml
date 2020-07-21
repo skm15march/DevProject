@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.mt</groupId>
+	<groupId>com.zm</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>ZoomIT Corp</name>
+		<url>http://zoomitcorp.com/</url>
 	</organization>
 
 	<properties>
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.174.173:9000/</sonar.host.url>
+		<sonar.host.url>http://ublinux:9010/</sonar.host.url>
 		<!--<sonar.login>68a2a121435ecf5f0e65bd392845175651959746</sonar.login>  -->
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
@@ -98,14 +98,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.232.189.92:9980/mithuntechnologies/repository/paytm-release/</url>
+	      <name>ZoomIT Corp Releases Nexus Repository</name>
+	      <url>http://ublinux:9020/skm15march/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.232.189.92:9980/mithuntechnologies/repository/paytm-snapshot/</url>
+	      <name>ZoomIT Corp Snapshot Nexus Repository </name>
+	      <url>http://ublinux:9020/skm15march/repository/flipkart_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

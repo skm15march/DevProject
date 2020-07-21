@@ -18,7 +18,7 @@ node('nodes'){
  def mavenHome = tool name:"maven3.6.2"
  
  stage('Checkout'){
- git branch: 'development', credentialsId: 'e14ded32-a4da-421c-99b2-9f417175e8b3', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'   
+ git branch: 'development', credentialsId: '07c8a66f5386a2dc8605695ce54e35d65b9a9e6c', url: 'https://github.com/skm15march/DevProject.git'   
  }
  
  /*
@@ -39,8 +39,8 @@ node('nodes'){
  
  stage('DeployAppintoTomcat')
  {
- sshagent(['c515e20b-3ee9-460d-9364-6556cc226b40']) {
-  sh  "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.126.84.105:/opt/apache-tomcat-9.0.27/webapps/maven-web-application.war"
+ sshagent(['07c8a66f5386a2dc8605695ce54e35d65b9a9e6c']) {
+  sh  "scp -o StrictHostKeyChecking=no target/maven-web-application.war ublinux:/opt/apache-tomcat-9.0.27/webapps/maven-web-application.war"
  }
  }
  */
@@ -51,8 +51,8 @@ node('nodes'){
  emailext body: '''Build is over
 
  Regards,
- Mithun Technologies,
- 9980923226''', subject: 'Buid is over', to: 'devopstrainingblr@gmail.com'
+ ZoomIT Corp,
+ 9987261114''', subject: 'Buid is over', to: 'skm15march@gmail.com'
  }
     
 }
